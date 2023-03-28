@@ -9,3 +9,4 @@ Hill Climbing<br>
 步驟4:比較第3步評估過後的解是否優於原來的解，若優於原來的解則更新，若無則維持原來的解(determination)<br>
 重複2-4步驟直到一開始決定的迭代次數<br><br>
 使用Hill Climbing演算法時會因為步驟2使用不同transition而導致陷入了區域最佳解，所以Simulation annealing，用退火係數來允許較差解的產生，以助於跳脫區域最佳解<br><br><br>
+結果是1433 代表此演算法跳不出區域最佳解
